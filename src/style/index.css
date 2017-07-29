@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.App {
+	height: calc(100vh - (18px + 16px * 2));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 400px;
+	background-color: white;
+	padding: 24px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.75)
+}
+
+button {
+	height: 38px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	outline: none;
+	font-size: 0.85em;
+	padding: 8px 18px 6px 18px;
+	margin-top: 30px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+.share {
+	font-size: 20px;
+	width: 42px;
+	text-align: center;
+	padding: 0;
+}
+
+#new-quote {
+	float: right;
+}
+
+.primary-color {
+  color: transparent;
+}
+
+.primary-color-background {
+  background-color: transparent;
+}
+
+.quote .content {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.content i {
+	margin-right: 8px;
+}
+
+.quote .author {
+	margin-top: 20px;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+.developer {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+
+.developer a {
+	text-decoration: none;
+	color: #F4F4F4;
+}
